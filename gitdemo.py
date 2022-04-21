@@ -38,3 +38,6 @@ __oints([[1,1],[2,2],[3,3]])
 
 for position in lineup:
     print(f'{position}: {lineup[position]}')
+
+who = "who are these people"
+print(who)
