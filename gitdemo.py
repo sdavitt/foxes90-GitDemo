@@ -3,7 +3,9 @@ favorite_team = 'Manchester City'
 favorite_player = 'Joao Cancelo'
 
 transfer_target = 'Erling Haaland'
+greatest_ginger_athlete = 'Kevin De Bruyne'
 
-lineup = {'CB': 'Ruben Dias', 'K': 'Ederson Moraes'}
+lineup = {'CB': 'ImEric TheDoor', 'K': 'Ederson Moraes', 'LB': favorite_player, 'CAM': greatest_ginger_athlete}
 
-print(lineup)
+for position in lineup:
+    print(f'{position}: {lineup[position]}')
