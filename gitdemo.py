@@ -9,3 +9,6 @@ lineup = {'CB': 'ImEric TheDoor', 'K': 'Ederson Moraes', 'LB': favorite_player, 
 
 for position in lineup:
     print(f'{position}: {lineup[position]}')
+
+who = "who are these people"
+print(who)
